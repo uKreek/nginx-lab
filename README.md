@@ -5,12 +5,12 @@
 Меркулова Елизавета, ПМ-2
 ## Скриншоты
 1. Проверка на наличие докера
-<img width="467" height="132" alt="image_2026-01-28_17-27-29" src="https://github.com/user-attachments/assets/ae014fe7-7348-4b6c-95d1-26ce3d0868b8" />
+<img width="467" height="132" alt="image_2026-01-28_17-27-29" src="nginx-lab\screenshots\docker version.png" />
 
 2. Запуск сервера
-<img width="1669" height="998" alt="image" src="https://github.com/user-attachments/assets/af16dbd9-91d4-4e4b-ae94-a937021a9f4b" />
+<img width="1669" height="998" alt="image" src="nginx-lab\screenshots\nginx works.png" />
 
 3. Добавление html
-<img width="1672" height="998" alt="image" src="https://github.com/user-attachments/assets/574ff5ba-631c-4345-8bf4-1a611c069266" />
+<img width="1672" height="998" alt="image" src="nginx-lab\screenshots\nginx works.png" />
 
 

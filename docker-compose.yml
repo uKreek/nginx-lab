@@ -3,12 +3,8 @@ version: "3.9"
 services:
   web:
     image: nginx:1.27-alpine
-    environment:
-      - LANG=ru_RU.UTF-8
-      - LANGUAGE=ru_RU:ru
-      - LC_ALL=ru_RU.UTF-8
     ports:
-      - "8080:80"
+      - "3000:80"
     volumes:
       - ./code:/usr/share/nginx/html
 

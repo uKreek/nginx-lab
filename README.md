@@ -29,6 +29,11 @@ Merkulova Elizaveta, AM-2
 ```screenshots/``` — all screenshots
 
 ## Screenshots
-
+![alt](screenshots/1-docker-version.png)
+![alt](screenshots/2-nginx-works.png)
+![alt](screenshots/3-add-html.png)
+![alt](screenshots/4-edit-html-text.png)
+![alt](screenshots/5-second-page.png)
+![alt](screenshots/6-edit-host.png)
 ## Result
 The Docker server has started successfully, Nginx is serving my HTML page.

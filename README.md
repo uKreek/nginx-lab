@@ -1,16 +1,34 @@
-# Лабораторная работа №1: Nginx + Docker
-Создать веб-сервер в Docker с использованием Nginx и подключить HTML-страницу.
-Результат доступен по адресу http://localhost:8080.
-## Автор
-Меркулова Елизавета, ПМ-2
-## Скриншоты
-1. Проверка на наличие докера
-<img width="467" height="132" alt="image_2026-01-28_17-27-29" src="nginx-lab\screenshots\docker version.png" />
+# Labaratory work №1: Nginx + Docker
+Create a web server in Docker using Nginx and connect an HTML page
 
-2. Запуск сервера
-<img width="1669" height="998" alt="image" src="nginx-lab\screenshots\nginx works.png" />
+## Author
+Merkulova Elizaveta, AM-2
 
-3. Добавление html
-<img width="1672" height="998" alt="image" src="nginx-lab\screenshots\nginx works.png" />
+## How to start a project
 
+1. Clone repo:
+```bash
+  git clone https://github.com/uKreek/nginx-lab
+  cd nginx-lab
+```
+2. Run the container:
+```bash
+  docker-compose up -d --build
+```
+3. Open in browser:
+```http://localhost:8080```
 
+## Project content
+
+```docker-compose.yml``` — Nginx description
+
+```code/index.html``` — main HTML-page
+
+```code/answers.html``` — second page
+
+```screenshots/``` — all screenshots
+
+## Screenshots
+
+## Result
+The Docker server has started successfully, Nginx is serving my HTML page.

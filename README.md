@@ -1,39 +1,26 @@
-# Laboratory work №1: Nginx + Docker
-Create a web server in Docker using Nginx and connect an HTML page
+# Laboratory work №1: HTML + JS + PHP
+# option 10
+Create a gym registration form using JS, CSS, and HTML.
 
 ## 💃 Author
 Merkulova Elizaveta, AM-2
-
-## 🪗 How to start a project
-
-1. Clone repo:
-```bash
-  git clone https://github.com/uKreek/nginx-lab
-  cd nginx-lab
-```
-2. Run the container:
-```bash
-  docker-compose up -d --build
-```
-3. Open in browser:
-```http://localhost:8080```
 
 ## 🍽️ Project content
 
 ```docker-compose.yml``` — Nginx description
 
-```code/index.html``` — main HTML-page
+```nginx.conf``` — Nginx configuration
 
-```code/answers.html``` — second page
+```www/index.php``` — PHP page
+
+```www/form.html``` — registration form
 
 ```screenshots/``` — all screenshots
 
 ## 📸 Screenshots
-![alt](screenshots/1-docker-version.png)
-![alt](screenshots/2-nginx-works.png)
-![alt](screenshots/3-add-html.png)
-![alt](screenshots/4-edit-html-text.png)
-![alt](screenshots/5-second-page.png)
-![alt](screenshots/6-edit-host.png)
+![alt](screenshots/screen-1.png)
+![alt](screenshots/screen-2.png)
+![alt](screenshots/screen-3.png)
+![alt](screenshots/screen-4.png)
 ## 🎉 Result
-The Docker server has started successfully, Nginx is serving my HTML page.
+PHP info added, registration form created, design modified using CSS, page appearance animation added, action reminder added using JavaScript.
